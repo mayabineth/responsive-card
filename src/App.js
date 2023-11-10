@@ -49,7 +49,7 @@ function App() {
             </div>
             <div className="flex-row rtl">
               <h4>
-                {details.nightsNum == 1
+                {details.nightsNum === 1
                   ? "לילה 1 "
                   : details.nightsNum > 1
                   ? details.nightsNum + " לילות"
